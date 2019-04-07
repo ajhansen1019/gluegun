@@ -1,9 +1,9 @@
 var c;
  
 function setup() {
- 	createCanvas(600, 600);
- 	c = color(0);
-	cursor("https://static.cargocollective.com/images/up.png", [50], [50])
+ 	createCanvas(windowWidth, windowHeight);
+ 	c = color(255,255,255);
+	cursor('grab', [50], [50])
 }
  
 function mouseDragged() 
